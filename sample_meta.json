@@ -1,0 +1,33 @@
+{
+  "start_time": "2025-01-01T00:00:00",
+  "duration_hours": 720,
+  "interval_hours": 1.0,
+  "z0": 0.0,
+  "constituents": {
+    "M2": {
+      "amplitude": 1.2,
+      "phase_deg": 45.0,
+      "omega": 0.50587
+    },
+    "S2": {
+      "amplitude": 0.4,
+      "phase_deg": 120.0,
+      "omega": 0.523599
+    },
+    "K1": {
+      "amplitude": 0.3,
+      "phase_deg": 80.0,
+      "omega": 0.262516
+    },
+    "O1": {
+      "amplitude": 0.25,
+      "phase_deg": 200.0,
+      "omega": 0.243395
+    }
+  },
+  "noise_std": 0.05,
+  "missing_fraction": 0.02,
+  "n_points": 721,
+  "n_missing": 14,
+  "seed": 42
+}

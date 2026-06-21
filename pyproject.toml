@@ -1,0 +1,16 @@
+[project]
+name = "tide-analyzer"
+version = "0.1.0"
+description = "离线潮汐调和分析与预测命令行工具"
+requires-python = ">=3.8"
+authors = [{ name = "Tide Analyzer Team" }]
+
+[project.scripts]
+tide-analyzer = "tide_analyzer.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["tide_analyzer*"]
